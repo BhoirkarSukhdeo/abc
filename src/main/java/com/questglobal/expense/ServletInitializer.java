@@ -1,4 +1,4 @@
-package com.wcs.log4j2;
+package com.questglobal.expense;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(Log4J2ExampleInSpringBootApplication.class);
+		return application.sources(ExpenseManagerProjectApplication.class);
 	}
 
 }
