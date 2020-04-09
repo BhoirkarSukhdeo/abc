@@ -29,6 +29,6 @@ public class Expense {
 	@JoinColumn(name = "expenseId")
 	private List<Category> category;
 	
-	
+	private int m2;
 
 }
