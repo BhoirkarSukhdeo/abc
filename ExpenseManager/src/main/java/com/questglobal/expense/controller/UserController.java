@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
 	
-	
+	publiv void m1()
+{
+}
 	
 
 }

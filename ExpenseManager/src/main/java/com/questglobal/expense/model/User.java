@@ -46,5 +46,6 @@ public class User {
 	@JoinColumn(name = "userId")
 	private List<Expense> expenseList;
 	
+private int m;
 	
 }
